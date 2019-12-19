@@ -17,7 +17,7 @@ import './components/App.css';
 function App() {
 
     return (
-      <HashRouter basename='/'>
+      
     <Router>
       <div className="nav">
         {/* <h1 id="name">Josh Jun Kim</h1> */}
@@ -60,7 +60,7 @@ function App() {
         
       />
     </Router>
-    </HashRouter>
+    
   );
 }
 
