@@ -15,7 +15,7 @@ function App() {
 
     return (
       
-    <Router>
+    <Router basename='/portfolio'>
       <div className="nav">
         {/* <h1 id="name">Josh Jun Kim</h1> */}
         <div className="nav-sub">
