@@ -52,7 +52,7 @@ function FilmDisplayer(props) {
             showTitle="false"
             showPortrait="false"
             showByline="false"
-            controls='false'
+            // controls='false'
             width={500}
           />
         

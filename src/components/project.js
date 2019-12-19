@@ -6,14 +6,14 @@ import ProjectCard from  './ProjectCard.js';
 import redesign from './images/redesign/redesign-logo.png'
 import iterative_design from './images/merlot.jpeg'
 import style_transfer from './images/styletransfer/screamgalata.gif'
-import development from './images/development/react.png'
+import development from './images/development/cover.png'
 
 
 const projects = [
   // {image:iterative_design, title:"Simmer Redesigning", link:"/project/simmer" },
   {image:redesign, title:"IMDB Redesigned", link:"/project/redesign"  },
   {image:style_transfer, title:"Style Transfer with Tensorflow", link:"/project/styletransfer"},
-  {image:development, title:"Iterative Design", link:"/project/react"}
+  {image:development, title:"Iterative Design of Simmer", link:"/project/react"}
 ]
 
 class Project extends React.Component {

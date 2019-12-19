@@ -16,7 +16,7 @@ function Redesign(props) {
             <h1> IMDB Redesign</h1>
             <div className="portfolio-section1" >
                 <h2>Context</h2>
-                <p>The goal of this project was to take a website that is much in need of a drastic makeover. As a film fanatic, my disappointment with IMDB's urged me closer to designing and implementing its visual makeover in HTML and CSS.</p>
+                <p>The goal of this project was to take a website that is much in need of a drastic makeover. As a film fanatic, my disappointment with IMDB's cluttered interface urged me to design and implement its visual makeover in Adobe XD, HTML and CSS.</p>
             </div>
 
             <div className="portfolio-section2" >
