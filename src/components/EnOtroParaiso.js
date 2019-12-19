@@ -30,7 +30,7 @@ function EnOtroParaiso(props) {
             <h1> En Otro Paraiso</h1>
             <div className="portfolio-eop-section1" >
                 <h2>Context</h2>
-                <p>Over the winter of 2018, my friend Michael and I planned and shot a short film in South Texas. The short film is about 2 undocumented sisters who came to the US with only each other to live - The idea was first brought to life after Michael volunteered at an organization supporting undocumented immigrants in South Texas. The film explores the cultural and social distancing as a product of migration and how each sister tries to overcome it. We assembled a small crew and cast from both overseas and South Texas to produce the film.   </p>
+                <p>Over the winter of 2018, my friend Michael and I planned and shot a short film in South Texas. The short film is about 2 undocumented sisters who come to the US with only each other - The idea was first brought to life after Michael volunteered at an organization supporting undocumented immigrants in South Texas. The film explores the cultural and social distancing as a product of migration and how each sister tries to overcome it. We assembled a small crew and cast from both overseas and South Texas to produce the film.   </p>
             </div>
 
             <div className="portfolio-eop-section2" >

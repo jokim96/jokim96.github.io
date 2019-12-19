@@ -32,6 +32,7 @@ function Redesign(props) {
                 <h2>Wireframing</h2>
 
                 <p> I propose a new wireframe design to the website. Below are 4 wireframes to the most common screens on IMDB: Main Page, Movie Page, Celebrity Page, New Page</p>
+                <br></br>
                 <h3>Wireframe Mockups</h3>
                 <div className="wireframe-container">
                     <img className="wireframe" src={WireFrame1}/>
@@ -40,8 +41,10 @@ function Redesign(props) {
                     <img className="wireframe" src={WireFrame4}/>
                 </div>
                 <h3>Wireframe Connections</h3>
+                <div className="wireframe-container">
                 <img id="wireframeImg" src={MainWireframe}/>
-
+                </div>
+            <br></br>
                 <h3>Intuitive Design</h3>
                 <p>- Distinguished sections - News, Now Showing movies and ratings, Coming Soon, Trailers - all clearly labelled with large headings </p>
                 <p>- Consistent navigation layout - horizontal browsing within each section, and vertical browsing between sections</p>
@@ -64,9 +67,10 @@ function Redesign(props) {
 
             <div className="portfolio-section4" >
                 <h2>Visual Redesign</h2>
-                
+                <div id="redesign-container">
                 <img id="redesign" src={RedesignPage}/>
-                <div id="redesign">
+                </div>
+                <div >
                 <h2>Design Choices </h2>
                 
                 <h3>Color </h3>
@@ -83,9 +87,9 @@ function Redesign(props) {
                 </div>
             </div>
 
-            {/* <div className="portfolio-section5">
-                <h2>Visual Implementation</h2>
-            </div> */}
+            <div className="portfolio-section5">
+                <a href="https://github.com/jokim96/redesign_imdb">HTML/CSS Implementation</a>
+            </div>
             </div>
         </Page>
     )

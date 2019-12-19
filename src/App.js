@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, NavLink, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, NavLink, Switch, HashRouter} from 'react-router-dom'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 // import Navbar from 'react-bootstrap/Navbar'
 import About from './components/about.js'
@@ -17,6 +17,7 @@ import './components/App.css';
 function App() {
 
     return (
+      <HashRouter basename='/'>
     <Router>
       <div className="nav">
         {/* <h1 id="name">Josh Jun Kim</h1> */}
@@ -59,10 +60,12 @@ function App() {
         
       />
     </Router>
+    </HashRouter>
   );
 }
 
 
 
-
+const Home = () => <div><h2>Home</h2></div>
+const About = () => <div><h2>About</h2></div>
 export default App;

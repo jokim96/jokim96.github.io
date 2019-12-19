@@ -16,6 +16,8 @@ function About(props) {
           <h2>Visual Learner. Visual Creator.</h2>
           
           <p>I am a junior studying Computer Science and Cognitive Science from South Korea and Singapore and currently studying at Brown University in the US . <br></br>I enjoy anything that lies in the intersection between tech, creativity, and visuality - be it filmmaking, design or coding. Feel free to explore both my filmmaking projects and visual coding projects!</p>
+          <br></br>
+          <p>joshua_kim@brown.edu</p>
         </div>
       </div>
     </Page>

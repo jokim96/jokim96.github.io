@@ -343,7 +343,7 @@ h1 {
   flex-direction: column;
   text-align: left;
   flex-wrap: wrap;
-  width:65%;
+  /* width:65%; */
 }
 
 .portfolio-image {
@@ -361,22 +361,24 @@ h1 {
 }
 
 .wireframe {
-  width: 230px;
+  width: 300px;
   max-height:600px;
   /* object-fit: cover; */
   display:block;
 }
 
 #wireframeImg { 
-  width: 500px;
+  width: 650px;
   max-height:800px;
-  object-fit: cover;
-  ;
+  /* object-fit: cover; */
+  justify-content: center;
   display:block;
+  align-content: center;
 }
 
 .wireframe-container {
   /* justify-content: center; */
+  justify-content: center;
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -384,10 +386,24 @@ h1 {
 }
 
 #redesign {
+  align-content: center;
   width: 650px;
   max-height:2000px;
   /* object-fit: cover; */
   display:block;
+}
+
+#redesign-container{
+  justify-content: center;
+
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.portfolio-section4 {
+  justify-content: center;
 }
 
 .img-container {
@@ -475,11 +491,20 @@ h1 {
   padding: 0px 10%;
 }
 
+.development-page b {
+  font-size: 1.4em;
+}
+
 .development-page div {
   /* align-items: center; */
   width:100%; 
   margin:0 auto;
   padding-bottom:30px;
+}
+
+.mockup-div {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .sketch-container {

@@ -50,8 +50,8 @@ function Development(props) {
 
             <div className="portfolio-dev-section2" >
                 <h2> Pre-Mock Up Questions</h2>
-
                 <p>In order to understand the users for which we are designing, we started thinking about the needs of the specific groups of people the app is impacting.</p>
+                    <div className="mockup-div">
 <br></br>
                 <b>What is a group of people that will be directly impacted by your interface? </b>
             
@@ -72,7 +72,7 @@ function Development(props) {
                 <p>The users deciding what food to order and the users leaving reviews of dishes will be the main groups of people that will be directly impacted by our interface. They are interacting with each other through the app/website and their choices are affected by the experiences and choices made by previous reviewers. </p>
                 <br></br>
                 <br></br>
-                
+                </div>
                 <h2> Main Functionality of Simmer</h2>
                 <h3>Based off of our analysis of the target groups and our understanding of the purpose of Simmer, we decided on the most important elements for the functionality of the app. </h3>
 

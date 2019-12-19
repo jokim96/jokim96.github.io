@@ -105,6 +105,9 @@ most optimal β ratio to be 0.025</p>
                 <img className="styletransfer-results-image" src={kandinsky_gala}/>
             </div>
         </div>
+        <div className="portfolio-section5">
+                <a href="https://github.com/jokim96/styletransfer">Github Repo</a>
+            </div>
         </div>
     </Page>
     )
