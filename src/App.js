@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, NavLink, Switch, HashRouter} from 'react-router-dom'
+import {BrowserRouter as Router, Route, NavLink, Switch} from 'react-router-dom'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 // import Navbar from 'react-bootstrap/Navbar'
 import About from './components/about.js'
@@ -9,9 +9,6 @@ import StyleTransfer from './components/styletransfer.js'
 import Redesign from './components/redesign.js'
 import Development from './components/development.js'
 import './components/App.css';
-
-
-
 
 
 function App() {
