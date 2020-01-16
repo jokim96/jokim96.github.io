@@ -71,6 +71,8 @@ function FilmDisplayer(props) {
 
 // function Film(props) {
 class Film extends React.Component {
+
+  
   constructor(props) {
     super(props);
     this.selectItem = this.selectItem.bind(this)
