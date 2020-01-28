@@ -15,14 +15,14 @@ import cnn from './images/cnn.png'
 import Vimeo from '@u-wave/react-vimeo';
  
 const films = [
-    {image:merlot, title:"Merlot Doesn't Go with Seabass", category:"Narrative Short" , src:"https://vimeo.com/380391886/04c279af8a", description: "Written/Directed by Joshua Kim & Michael Mireles /n DP/Edit by Joshua Kim", portfolio:false},
-    {image:luk, title:"Strawberry Generation", category:"Music Video" , src:"", description:"", portfolio:true},
+    {image:merlot, title:"Merlot Doesn't Go with Seabass", category:"Narrative Short" , src:"https://vimeo.com/383961719/f4933d0ac3", description: "Written/Directed by Josh Jun Kim & Michael Mireles /n DP/Edit by Josh Jun Kim", portfolio:false},
+    {image:luk, title:"Strawberry Generation", category:"Music Video" , src:"https://vimeo.com/387776966/591b2f6c66", description:"Directed by Josh Jun Kim", portfolio:false},
     {image:art, title:"Drowning", category:"Experimental", src:"https://vimeo.com/380369498/091defd892",description:"", portfolio:false},
     {image:eop, title:"En Otro Paraiso", category:"Narrative Short", src:"https://vimeo.com/380157225", description:"", portfolio:true},
-    { image:rem, title:"REM", category:"Narrative Short", src:"https://vimeo.com/331576114",description:"Directed by Carter Graves /n DP by Joshua Kim", portfolio:false},
-    { image:nyc, title:"From Brooklyn to Queens", category:"Experimental", src:"https://vimeo.com/374696154/120c6037ca", description:"", portfolio:false},
-    {image:vice, title:"Vice // The Artist", category:"Branded Content", src:"https://vimeo.com/360725411", description:"Production: electriclimefilms /n Cam Op: Joshua Kim", portfolio:false},
-    { image:cnn, title:"CNN // Explore the Extraordinary", category:"Branded Content", src:"https://vimeo.com/361223832",description:"Production: electriclimefilms /n Edit by Joshua Kim", portfolio:false} ,
+    { image:rem, title:"REM", category:"Narrative Short", src:"https://vimeo.com/331576114",description:"Directed by Carter Graves /n DP by Josh Jun Kim", portfolio:false},
+    { image:nyc, title:"From Brooklyn to Queens", category:"Experimental", src:"https://vimeo.com/385348185", description:"", portfolio:false},
+    {image:vice, title:"Vice // The Artist", category:"Branded Content", src:"https://vimeo.com/360725411", description:"Production: electriclimefilms /n Cam Op: Josh Jun Kim", portfolio:false},
+    { image:cnn, title:"CNN // Explore the Extraordinary", category:"Branded Content", src:"https://vimeo.com/361223832",description:"Production: electriclimefilms /n Edit by Josh Jun Kim", portfolio:false} ,
 ]
 
 function FilmDisplayer(props) {
