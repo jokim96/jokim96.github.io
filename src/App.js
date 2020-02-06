@@ -15,7 +15,7 @@ function App() {
 
     return (
       
-    <Router basename='/portfolio'>
+    <Router>
       <div className="nav">
         {/* <h1 id="name">Josh Jun Kim</h1> */}
         <div className="nav-sub">
@@ -41,7 +41,7 @@ function App() {
                     <Switch>
                       <Route exact path="/" component={About} />
                       <Route path="/film" component={Film} />
-                      <Route path="/project" exact component={Project} />
+                      <Route path="/project"  component={Project} />
                       <Route path="/project/redesign" component={Redesign} />  
                       <Route path="/project/styletransfer" component={StyleTransfer} /> 
                       <Route path="/project/react" component={Development} />  
