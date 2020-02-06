@@ -15,7 +15,7 @@ function App() {
 
     return (
       
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="nav">
         {/* <h1 id="name">Josh Jun Kim</h1> */}
         <div className="nav-sub">
