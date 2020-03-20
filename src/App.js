@@ -1,7 +1,6 @@
 import React from 'react';
 import {HashRouter as Router, Route, NavLink, Switch} from 'react-router-dom'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-// import Navbar from 'react-bootstrap/Navbar'
 import About from './components/about.js'
 import Project from './components/project.js'
 import Film from './components/film.js'
@@ -22,8 +21,7 @@ function App() {
           <NavLink to="/project" className="nav-link"> PROJECT</NavLink>
           <NavLink to="/" className="nav-link"> HOME</NavLink>
           <NavLink to="/film" className="nav-link"> FILM</NavLink>
-        </div>
-      
+        </div>      
       </div>
       <Route
         render={({ location }) => {
@@ -41,7 +39,7 @@ function App() {
                     <Switch>
                       <Route exact path="/" component={About} />
                       <Route path="/film" component={Film} />
-                      <Route path="/project"  component={Project} />
+                      <Route exact path="/project"  component={Project} />
                       <Route path="/project/redesign" component={Redesign} />  
                       <Route path="/project/styletransfer" component={StyleTransfer} /> 
                       <Route path="/project/react" component={Development} />  
@@ -56,8 +54,8 @@ function App() {
 
         
       />
+
     </Router>
-    
   );
 }
 

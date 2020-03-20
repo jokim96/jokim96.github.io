@@ -9,8 +9,19 @@ import WireFrame4 from './images/redesign/wf4.png'
 import MainWireframe from './images/redesign/wireframe.png'
 import RedesignPage from './images/redesign/redesign-page.png'
 
-function Redesign(props) {
-    return (
+// function Redesign(props) {
+class Redesign extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+
+        }
+    
+      }
+
+
+    render() {return (
         <Page className="portfolio" >
             <div className="redesign-page">
             <h1> IMDB Redesign</h1>
@@ -92,8 +103,6 @@ function Redesign(props) {
             </div>
             </div>
         </Page>
-    )
-  }
-  
-
+    )}
+}
 export default Redesign;
